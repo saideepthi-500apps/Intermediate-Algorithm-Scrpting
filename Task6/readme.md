@@ -6,3 +6,4 @@ Pig Latin is a way of altering English Words. The rules are as follows:
 - If a word begins with a vowel, just add way at the end.
 
 Translate the provided string to Pig Latin. Input strings are guaranteed to be English words in all lowercase.
+url:https://drive.500apps.com/ec3d2338

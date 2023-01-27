@@ -10,5 +10,5 @@ function dropElements(arr, func) {
 }
 
 function getOutput() {
-  document.getElementById("output").innerText = dropElements(dropElements([1, 2, 3], function(n) {return n < 3; }));
+  document.getElementById("output").innerText = dropElements([1, 2, 3, 4], function(n) {return n >= 3;});
 }
