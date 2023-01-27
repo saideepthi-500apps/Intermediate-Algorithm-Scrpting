@@ -4,12 +4,10 @@ function myReplace(str, before, after) {
   for(let i=0;i<str.length;i++){
     if(str[i]=== before){
       if(str[i] === str[i].toLowerCase()){
-        sentense = str.slice(0,i).join(" ") + ` ${after[0].toLowerCase()+after.slice(1)} `+ str.slice(i+1).       join(" ");
-        console.log(sentense)
+        sentense = str.slice(0,i).join(" ") + ` ${after[0].toLowerCase()+after.slice(1)} `+ str.slice(i+1).join(" ");
       }
       else{
-        sentense = str.slice(0,i).join(" ") + ` ${after[0].toUpperCase()+after.slice(1)} `+ str.slice(i+1).       join(" ");
-        console.log(sentense)
+        sentense = str.slice(0,i).join(" ") + ` ${after[0].toUpperCase()+after.slice(1)} `+ str.slice(i+1).join(" ");
       }
       
     }

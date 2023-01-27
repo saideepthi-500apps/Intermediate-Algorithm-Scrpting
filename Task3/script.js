@@ -5,7 +5,6 @@ function destroyer(arr1,...abc) {
       i--;
     }
   }
-   console.log(arr1) ;
    return arr1;
 }
     

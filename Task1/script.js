@@ -8,10 +8,8 @@ function sumAll(arr) {
   else{
     for(let i=arr[0] ; i>=arr[1] ; i--){
       sum += i;
-      // console.log(i);
     }
   }
-  // console.log(sum);
   return sum;
 
 }

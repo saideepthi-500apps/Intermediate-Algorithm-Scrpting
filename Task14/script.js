@@ -4,21 +4,22 @@ function smallestCommons(arr) {
   let temp = 1;
   for(let i=min ; i<=max-1 ; i++){
     let num1 = temp;
-    num2 = i+1;
-    let min = (num1 > num2) ? num1 : num2;
+    let num2 = i+1;
+    let max = (num1 > num2) ? num1 : num2;
 
     // while loop
     while (true) {
-        if (min % num1 == 0 && min % num2 == 0) {
+        if (max % num1 == 0 && max % num2 == 0) {
             break;
         }
-        min++;
+        max++;
     }
-    temp = min;
-    console.log(min);
+    temp = max;
+    // console.log(max);
   }
+  return temp;
 }
-
+smallestCommons([1, 13]);
 function getOutput() {
   document.getElementById("output").innerText = smallestCommons([1, 13]);
 }

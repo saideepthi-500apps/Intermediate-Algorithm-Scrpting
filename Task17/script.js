@@ -1,6 +1,6 @@
 function binaryAgent(str) {
-  let binary = str.split(' ');
-  return binary.map(elem => String.fromCharCode(parseInt(elem, 2))).join("");
+  str = str.split(' ');
+  return str.map(elem => String.fromCharCode(parseInt(elem, 2))).join("");
 }
 
 
